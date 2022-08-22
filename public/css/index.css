@@ -1,7 +1,9 @@
 html{
-    background-image: url('street.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
   }
   
@@ -14,46 +16,8 @@ html{
     position: fixed;
     border: solid 5px #333;
   }
-  /*
-  .trafficlight:before{
-    background: #222;
-    background-image: radial-gradient(#444, #000);
-    content: "";
-    width: 170px;
-    height: 150px;
-    margin: 0 auto;
-    position: absolute;
-    top: -20px;
-    margin-left: 0px;
-    border-radius: 50%;
-    z-index: -1;
-  }
   
-  .trafficlight:after{
-    background: #222;
-    background-image: linear-gradient(-0deg, #777 10%, #ccc 30%, #000);
-    content: "";
-    width: 50px;
-    height: 500px;
-    margin-left: 60px;
-    position: absolute;
-    top: 150px;
-    z-index: -1;
-  }
-  */
-  .protector{
-    background: transparent;
-    width: 180px;
-    height: 0;
-    position: absolute;
-    top: 20px;
-    left: -35px;
-    border-right: solid 30px transparent;
-    border-left: solid 30px transparent;
-    border-top: solid 90px #111;
-    border-radius: 10px;
-    z-index: -1;
-  }
+  
   
   .protector:nth-child(2){
     top: 140px;
@@ -343,7 +307,7 @@ html{
   	bottom: 70px;
   	margin-left: auto; 
   	margin-right: auto;
-	  background-image: url('iphone.jpg');
+	  background-image: url('grupo3.jpg');
     background-size: cover;
     border-radius: 5px;
     padding: 112px 18px;
@@ -372,7 +336,8 @@ html{
 
 .table-wrap {
     position: absolute;
-    top: 25%;
+    left: 30px;
+    top: 700px;
     right: 25%;
     padding: 30px;
     border-radius: 9px;
