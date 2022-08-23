@@ -50,6 +50,7 @@ function changeLight(light) {
     switch(light) {
         case 'GREEN':
             green.classList.add("active");
+            
           break;
         case 'RED':
             red.classList.add("active");
@@ -60,7 +61,7 @@ function changeLight(light) {
 
         break;
         default:
-          // code block
+
       }
 }
 
@@ -85,12 +86,8 @@ function updateClock() {
 }
 
 stopbtn.addEventListener("click", function(){
-    console.log("stop")
+    console.log("Stop")
     socket.emit('stop')
 });
 
-
-// $(document).ready(function() {
-//     $('#maintable').DataTable();
-// } );
 
